@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    padding: 0;
+    margin: 0%;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+}
+
+body{
+    
+}
+
+#tasklist::-webkit-scrollbar{
+    display: none;
+}
+#all-list::-webkit-scrollbar{
+    display: none;
+}
+*::-webkit-scrollbar{
+    display: none;
+}
