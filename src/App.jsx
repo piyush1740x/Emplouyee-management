@@ -22,7 +22,7 @@ const App = () => {
   const handleLogin = (email, password) => {
     setError(""); // Reset error message on each login attempt
 
-    if (email === "h@g.com" && password === "123") {
+    if (email === "admin@admin.com" && password === "123") {
       const adminData = { role: "admin" };
       setUser("admin");
       localStorage.setItem("loggedInUser", JSON.stringify(adminData));
